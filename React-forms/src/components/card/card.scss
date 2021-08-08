@@ -1,0 +1,44 @@
+.card {
+  width: 245px;
+  background-color: crimson;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-image {
+  width: 100%;
+}
+
+span, p {
+  color: black;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.image-container {
+  width: 245px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.author {
+  color: whitesmoke;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.country {
+  color: greenyellow;
+}

@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  width: 50%;
+  margin: 0 auto;
+  border: 3px black solid;
+}
+
+.input-name {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.item {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  width: 175px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.button-name-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.errors {
+  color: red;
+}
+
+.switch-item {
+  list-style-type: none;
+}
+
+.select {
+  width: 200px;
+  margin: 0 auto;
+}
