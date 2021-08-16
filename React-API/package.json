@@ -1,0 +1,58 @@
+{
+  "name": "react-forms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --env develop",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "browserslist": "> 0.25%, not dead",
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  },
+  "author": "maxkalevich",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
