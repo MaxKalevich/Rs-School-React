@@ -1,0 +1,28 @@
+$bodyColor: silver;
+
+body {
+  background: $bodyColor;
+  font-family: 'Anton', sans-serif;
+}
+
+.heading {
+  font-size: 50px;
+  text-align: center;
+  color: greenyellow;
+  padding-top: 20px;
+}
+
+.main-content-search {
+  height: 230px;
+  border-radius: 20px;
+  background-color: #808080;
+}
+
+.main-card-container {
+  background-color: slategray;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  justify-content: center;
+  border-radius: 20px;
+}
