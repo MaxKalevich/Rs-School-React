@@ -1,0 +1,29 @@
+.header {
+  background-color: rebeccapurple;
+  width: 100%;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  list-style-type: none;
+  padding: 10px;
+  color: whitesmoke;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header-link {
+  color: whitesmoke;
+}
+
+.active {
+  color: red;
+}
