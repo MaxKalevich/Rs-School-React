@@ -1,0 +1,3 @@
+export const IS_LOADING = 'MAIN_REDUCER/IS_LOADING';
+export const ERROR = 'MAIN_REDUCER/ERROR';
+export const NOT_FOUND = 'MAIN_REDUCER/NOT_FOUND';

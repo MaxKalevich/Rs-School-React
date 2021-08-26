@@ -1,0 +1,21 @@
+.details-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details-title, .description-details {
+  font-size: 20px;
+  color: blue;
+}
+
+.description-author {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.description-content {
+  font-size: 19px;
+  width: 645px;
+}
